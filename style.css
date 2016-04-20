@@ -1,0 +1,185 @@
+/* ------ GENERAL ------ */
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #444444;
+  max-width: 900px;
+  margin: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+
+/* ------ HEADERS ------ */
+
+h1, h2 {
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #898989;
+}
+
+#first-head {
+  font-size: 40px;
+  color: #DF3C31;
+  display: inline-block;
+}
+
+#second-head {
+  padding-left: 20px;
+  font-size: 22px;
+  color: #898989;
+  display: inline-block;
+}
+
+.post-date {
+  font-size: 30px;
+  color: #CDCDCD;
+}
+
+.post-title {
+  font-size: 30px;
+}
+
+/* ------ NAVBARS ------ */
+
+nav {
+  width: 100%;
+}
+
+ul#main-navbar {
+  padding-left: 0;
+}
+
+#main-navbar a {
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+#main-navbar li:hover {
+  background-color: #CDCDCD;
+}
+
+#main-navbar li {
+  text-align: center;
+  color: #FFFFFF;
+  display: inline-block;
+  list-style-type: none;
+  width: 16%;
+  margin: 0;
+  margin-right: 1px;
+  margin-left: 0;
+  padding: 12px 0;
+  overflow: overflow;
+  background-color: #000000;
+}
+
+#alt-navbar li {
+  display: inline;
+  list-style-type: none;
+  border-right: 1px solid lightgray;
+  padding-left: 4px;
+  padding-right: 8px;
+}
+
+#alt-navbar li:last-child {
+  border-right: none;
+}
+
+#alt-navbar a {
+  color: #DF3C31;
+}
+
+#alt-navbar {
+  padding-top: 40px;
+  padding-bottom: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ------ COLUMNS ------ */
+
+[class*='col-'] {
+  float: left;
+}
+
+.col-2-3 {
+  width: 61.66%;
+  margin-right: 5%;
+}
+
+.col-1-3 {
+  width: 33.33%;
+  margin-top: 80px;
+}
+
+/* ------ POSTS ------ */
+
+.post {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 35px;
+}
+
+#about-us {
+  padding-bottom: 40px;
+}
+
+#ad-content {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#ad-content img {
+  width: auto;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#popular-posts a {
+  color: #DF3C31;
+}
+
+.more {
+  color: #DF3C31;
+  font-weight: 700;
+  float: right;
+  padding-bottom: 10px;
+}
+
+.dropcap {
+  float: left;
+  color: #CDCDCD;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-left: 0;
+  padding-bottom: 5px;
+}
+
+/* ------ FOOTERS ------ */
+
+#footer-text {
+  font-size: 16px;
+  color: #CDCDCD;
+}
+
+footer {
+  height: 200px;
+  clear: both;
+}
+
+/* ------ SORRY FOR ALL THE YELLING ------ */
+/* ------ I JUST HAVE A LOT OF FEELINGS RN ------ */
